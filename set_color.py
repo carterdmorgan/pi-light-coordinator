@@ -1,3 +1,5 @@
+# simple script for changing the color of the lights to red, green, blue, or off
+
 import pigpio
 import sys
 

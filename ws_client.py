@@ -1,3 +1,5 @@
+# websocket client for receiving RGB data and changing the color of the lights
+
 import asyncio
 import websockets
 import json
@@ -35,7 +37,7 @@ pi = pigpio.pi()
 ledStrip = LedStrip(pi, RED_PIN, GREEN_PIN, BLUE_PIN)
 
 async def watch_socket(ledStrip):
-    uri = "ws://192.168.0.14:8999"
+    uri = "ws://192.168.0.14:8999" # Replace with your URI
     async with websockets.connect(uri) as websocket:
         while True:
             greeting = await websocket.recv()
