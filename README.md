@@ -1,6 +1,6 @@
 # Raspberry Pi Light Coordinator
 
-A collection of python scripts to coordinate a string of LED lights connected to a Raspberry Pi using a corresponding websocket server and Angular SPA.
+A collection of python scripts to coordinate a string of LED lights connected to a Raspberry Pi using a corresponding websocket server and Angular SPA.  I know almost nothing about Python, so use these at your own discretion.
 
 ## Quick Start
 
